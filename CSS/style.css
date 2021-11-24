@@ -124,22 +124,34 @@ a:hover{
   }
 
   .dancing-img {
-    width: 30%;
-    float: left;
-    margin-right: 30px;
-  }
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
 
-  .cleaning-img {
-    width: 30%;
-    float: right;
-    margin-left: 30px;
-  }
+.cleaning-img {
+  height: 200px;
+  width: 200px;
+  float: right;
+  margin-left: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
 
-  .cooking-img {
-    width: 30%;
-    float: left;
-    margin-right: 30px;
-  }
+.cooking-img {
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
 
 .contact-message{
   width: 40%;
